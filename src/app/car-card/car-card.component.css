@@ -1,0 +1,14 @@
+.content {
+    padding: var(--gutter);
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.price { 
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: var(--gutter);
+}
