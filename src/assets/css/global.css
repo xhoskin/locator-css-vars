@@ -1,3 +1,5 @@
+@import "_global-variables.css";
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -15,7 +17,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -28,8 +30,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html, body {
+    height: 100%;
+}
 body {
-	line-height: 1;
+    line-height: 1;
+    heig
 }
 ol, ul {
 	list-style: none;
@@ -45,21 +51,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-:root {
-    --gutter: 10px;
-    --font-family-base: Tahoma, sans-serif;
-    --font-family-headings: "Palatino Linotype", serif;
-    --font-size-h1: 50px;
-    --font-size-h2: 40px;
-    --font-size-h3: 30px;
-    --font-size-h4: 20px;
-    --font-size-h5: 10px;
-    /* --screen-xs-min: 480px; */
-    /* --screen-sm-min: 768px; */
-    /* --screen-md-min: 992px; */
-    /* --screen-lg-min: 1280px; */
 }
 
 :root {

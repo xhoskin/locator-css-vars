@@ -1,0 +1,28 @@
+:root {
+    /* Отступы */
+    --gutter: 10px;
+
+    /* Шрифты */
+    --font-family-base: Tahoma, sans-serif;
+    --font-family-headings: "Palatino Linotype", serif;
+    --font-size-h1: 50px;
+    --font-size-h2: 40px;
+    --font-size-h3: 30px;
+    --font-size-h4: 20px;
+    --font-size-h5: 10px;
+
+    /* Цвета */
+    --gray-darker:  #333;
+    --gray-dark:    #777;
+    --gray:         #aaa;
+    --gray-light:   #ccc;
+    --gray-lighter: #eee;
+
+
+    /* Размеры экрана */
+    /* NOTICE: нельзя использовать css-переменные в медиа-запросах */
+    /* --screen-xs-min: 480px; */
+    /* --screen-sm-min: 768px; */
+    /* --screen-md-min: 992px; */
+    /* --screen-lg-min: 1280px; */
+}

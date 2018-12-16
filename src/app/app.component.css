@@ -1,0 +1,11 @@
+:host {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    padding: var(--gutter);
+    flex-grow: 1;
+    flex-shrink: 1;
+}

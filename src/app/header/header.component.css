@@ -1,0 +1,19 @@
+:host {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: var(--gutter);
+    background: #fff;
+    border: 1px solid var(--gray-light);
+    position: relative;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+    background: none;
+}

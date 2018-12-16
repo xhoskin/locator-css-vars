@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Car } from '../car';
 
 @Component({
   selector: 'car-card',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./car-card.component.css']
 })
 export class CarCardComponent implements OnInit {
+  @Input() car: Car;
 
   constructor() { }
 
